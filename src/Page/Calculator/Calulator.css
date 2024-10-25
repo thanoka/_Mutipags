@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .calculator-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+  }
+  .calculator {
+    position: relative;
+    width: 450px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  h2{
+    position: absolute;
+    opacity: 0.5;
+    top: 6%; right: 10%;
+    font-size: 17px;
+  }
+  
+  .display {
+    background-color: #222;
+    padding: 10px;
+  }
+  
+  .calc-display {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border: none;
+    font-size: 28px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    grid-template-rows: repeat(6, 70px); /* 5 rows of 70px each */
+    grid-gap: 10px; /* 10px spacing between buttons */
+  }
+  
+  .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #444;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  }
+  
+  .action:hover {
+    background-color: #555;
+  }
+  
+  .number , .addHyphen {
+    background-color: #666;
+  }
+  
+  .operator, .clearEntry ,.percent {
+    background-color: #ff9500;
+  }
+  
+  .red {
+    background-color: #ff3b30;
+  }
+  
+  .clear {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .zero {
+    grid-column: span 2; /* Span two columns for 0 button */
+  }
+  
+  

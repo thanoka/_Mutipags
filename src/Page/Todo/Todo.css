@@ -1,0 +1,23 @@
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.form-check{
+    width: 300px;
+}
+
+tr{
+    text-align: center;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-space{
+    margin: 0 0.5rem;
+}

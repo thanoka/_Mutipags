@@ -1,0 +1,15 @@
+.product-items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    overflow-y: auto;
+    height: 850px;
+    justify-content: center;  /* Centers the grid items horizontally */
+    align-content: center;    /* Centers the grid items vertically */
+}
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

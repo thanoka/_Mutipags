@@ -1,0 +1,8 @@
+.app-container{
+    position: absolute;
+    display: flex;
+    top: 50%; left: 50%; translate: -50% -50%;
+    width: 1200px;
+    border: 1px solid black;
+    
+}
